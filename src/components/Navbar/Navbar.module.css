@@ -1,0 +1,29 @@
+.container{
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.searchContainer {
+  border: 1px solid var(--text);
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.281);
+  color: #000;
+  width: 80%;
+}
+.searchText {
+  width: 80%;
+  font-size: 1.2rem;
+}
+.icon{
+  color: rgb(54, 54, 54);
+}
+.icon:hover{
+  cursor: pointer;
+}
