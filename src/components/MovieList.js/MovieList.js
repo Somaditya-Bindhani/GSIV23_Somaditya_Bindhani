@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import MovieCard from "./MovieCard";
 import styles from "./MovieList.module.css";
 import Pagination from "@mui/material/Pagination";

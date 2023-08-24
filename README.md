@@ -18,8 +18,11 @@ REACT_APP_IMAGE_URL =
 ```bash
 npm start
 ```
-## Deployement 
-Application os deployed to Vercel Here is the link to that : 
+
+## Deployement
+
+Application os deployed to Vercel Here is the link to that : https://gsiv-23-somaditya-bindhani.vercel.app/
+
 ## Challenges
 
 - It to get the consistent data from the server , there were few case where the basic information as the image and rating were missing and I have adde checks to handle those situaiton .
@@ -32,5 +35,5 @@ Application os deployed to Vercel Here is the link to that :
 
 ## Notes
 
-* I didn't want to over engineer the application by adding a state management libaray and a rotuig libaray , it was just a two page application thats why I have used the in built hooks for state management .
-* I need more time to write test cases and I am not used a lot of TDD for react app;ications . 
+- I didn't want to over engineer the application by adding a state management libaray and a rotuig libaray , it was just a two page application thats why I have used the in built hooks for state management .
+- I need more time to write test cases and I am not used a lot of TDD for react app;ications .

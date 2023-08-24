@@ -14,6 +14,7 @@ const MovieCard = (props) => {
       <img
         src={imageUrl}
         className={styles.poster}
+        alt={name}
         onError={(e) => {
           e.target.src = "/404.jpg";
         }}

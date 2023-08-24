@@ -1,10 +1,9 @@
 import { Search } from "@mui/icons-material";
 import { IconButton, InputBase } from "@mui/material";
-import React, { useState } from "react";
+import React from "react";
 import style from "./Navbar.module.css";
 import HomeIcon from "@mui/icons-material/Home";
 const Navbar = (props) => {
-  // const [searchText, setSearchText] = useState();
   const { setText, text, getMovies } = props;
   return (
     <div className={style.container}>
